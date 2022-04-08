@@ -1,20 +1,77 @@
 /* extra Small devices (landscape phones, 576px and up) */
 @media (min-width: 320px) and (max-width: 575px) {
-
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .menu .nav-item .nav-link {
+    padding: 7px 0px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .btn_link {
+    margin-left: 40px;
+  }
+  .top_header span {
+    padding-left: 3px;
+  }
+  .top_header span img {
+    margin-right: 0px;
+  }
+  .lst_product_part {
+    margin-top: 20px;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
-
+  .menu .nav-item .nav-link {
+    padding: 7px 0px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .btn_link {
+    margin-left: 140px;
+  }
+  .boishakhi_banner_carousel .carousel-inner h1 {
+    left: 35%;
+  }
+  .mens_banner_carousel .carousel-inner h1 {
+    left: 30%;
+  }
+  .news_banner_carousel .carousel-inner h1 {
+    left: 28%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .menu .nav-item .nav-link {
+    padding: 7px 0px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .btn_link {
+    margin-left: 230px;
+  }
+  .lst_product_part {
+    min-height: 260px;
+  }
+  .news_banner_carousel .carousel-inner h1 {
+    left: 21%;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) {
+  .menu .nav-item .nav-link {
+    font-size: 16px;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
